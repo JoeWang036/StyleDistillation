@@ -1,0 +1,10 @@
+diffusers==0.30.3
+transformers==4.46.3
+accelerate==1.0.1
+einops==0.8.0
+packaging==24.2
+safetensors==0.4.4
+tqdm==4.67.1
+clip @ git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1
+cmake==3.31.6
+lit==18.1.8

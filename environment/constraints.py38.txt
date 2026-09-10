@@ -1,0 +1,19 @@
+# Candidate selective constraints, not a complete dependency lock.
+# These guards preserve versions supplied by conda; a constraint alone does not
+# install a package or ensure its binary build. Use the conda specification first.
+torch==2.0.1
+torchvision==0.15.2
+numpy==1.24.4
+Pillow==9.4.0
+
+# Runtime versions observed in the reference environment.
+huggingface-hub==0.36.0
+fsspec==2024.9.0
+tokenizers==0.20.0
+ftfy==6.2.3
+hf-xet==1.2.0
+
+# Build tools supplied by conda. CLIP's setup.py imports pkg_resources.
+pip==24.3.1
+setuptools==75.3.0
+wheel==0.45.1
